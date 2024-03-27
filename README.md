@@ -44,3 +44,5 @@ pip install -r requirements.txt # Copied from YOLOv7 official documentation. -e 
 ```bash
 python app.py
 ```
+
+I have renames best.pt to best.pt1 to push the model to Git, please rename the model as best.pt and copy it inside yolov7 folder to avoid training and use pretrained model.
