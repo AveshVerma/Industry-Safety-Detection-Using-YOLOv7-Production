@@ -1,0 +1,5 @@
+
+train: /Users/aveshverma/machine_learning/Industry-Safety-Detection-Using-YOLOv7-Production/train.txt
+val: /Users/aveshverma/machine_learning/Industry-Safety-Detection-Using-YOLOv7-Production/val.txt
+nc: 5
+names: [ 'Helmet', 'Googles','Jacket', 'Gloves', 'Footwear']

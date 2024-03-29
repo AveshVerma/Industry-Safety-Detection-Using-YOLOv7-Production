@@ -39,7 +39,7 @@ def predictRoute():
         decodeImage(image, clApp.filename)
 
        
-        os.system("cd yolov7/ && python detect.py --weights best.pt  --source ../data/inputImage.jpg")
+        os.system("cd yolov_7/ && python detect.py --weights best.pt  --source ../data/inputImage.jpg")
 
         opencodedbase64 = encodeImageIntoBase64("yolov7/runs/detect/exp/inputImage.jpg")
         result = {"image": opencodedbase64.decode('utf-8')}
